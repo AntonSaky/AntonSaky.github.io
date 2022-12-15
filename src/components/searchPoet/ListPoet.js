@@ -30,7 +30,7 @@ export function ListPoet(){
             <div className="search-div">
                 <form action="">
                     <input type="text" placeholder={t("search-holder")} onChange={(event)=>setValue(event.target.value)} className="mySearch"/>
-                    <button className="search-btn" type="submit" ></button>
+                    <button className="search-btn" type="submit" disabled></button>
                 </form>
             </div>
             <div className="wrap">
